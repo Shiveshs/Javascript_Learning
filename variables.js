@@ -56,7 +56,7 @@ but is not initialised is called "TEMPORAL DEAD ZONE".
 // console.log(car);
 // const car = "Ferrari";  // reference error Cannot access 'car' before initialization
 
-console.log(cars) // Uncaught ReferenceError ReferenceError: cars is not defined
+//console.log(cars) // Uncaught ReferenceError ReferenceError: cars is not defined
 
 /*
 The above line proves that where car is hoisted and since it's in temporal dead zone, 
